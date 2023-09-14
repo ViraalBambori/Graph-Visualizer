@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5dc;
+}
+
+.container {
+    padding: 20px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.input-group label {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+.input-group input[type="text"] {
+    flex: 1;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+.main-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.control-panel {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.control-section {
+    margin-bottom: 20px;
+}
+
+/* ... existing styles ... */
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  /* Add this line */
+}
+
+.clear-button {
+    margin-top: 100px;  /* Add some top margin */
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.clear-button:hover {
+    background-color: darkred;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ... existing styles ... */
+
+
+.output-and-graph-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.graph-container {
+    flex: 1;
+    min-width: 600px;
+    height: 600px;
+    border: 4px solid #7df182;
+    background-color: #fff;
+    margin-right: 40px;  /* Increased separation */
+    margin-top: 0;
+    padding: 0;
+}
+
+.output-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;  /* Moved more to the right */
+}
+
+.output-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+    align-self: center;  /* Centered the title */
+}
+
+.output-box {
+    width: 250px;
+    height: 573px;  /* Decreased height */
+    border: 6px solid #7df182;
+    background-color: #333333;
+    padding: 20px;
+    overflow-y: auto;
+    margin-top: 0;
+    padding: 0;
+    align-self: flex-start;
+    color: #ffffff;  /* Changed text color to white for better visibility */
+}
+
+
+
+.algorithm-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.algo-title {
+    margin-right: 20px;
+    font-size: 32px;
+}
+
+.algo-button {
+    margin: 5px;
+    padding: 12px 20px;  /* Increased padding */
+    font-size: 18px;  /* Increased font size */
+    background-color: #007bff;  /* Changed background color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.algo-button:hover {
+    background-color: #0056b3;  /* Darker shade for hover */
+}
+
+button {
+    margin: 5px;
+    padding: 9px 18px;
+    font-size: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type="text"] {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
